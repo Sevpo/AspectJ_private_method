@@ -10,5 +10,5 @@ import java.util.Collection;
 public interface ItemService {
     void addNew(Item item) throws MyException;
     void addNew2(Item item) throws MyException2;
-    Collection<Item> getItems();
+    Iterable<Item> getItems();
 }
